@@ -466,34 +466,36 @@ left:710px;
 top: 367px;
 }
 
+/*Main frame 4*/
+
 .mainframe4{
     position: absolute;
-width: 1440px;
-height: 610px;
-left: 0px;
-top: 2041px;
+    width: 1440px;
+    min-height: 610px;
+    max-height: fit-content;
+    left: 0px;
+    top: 2041px;
 }
 
 .mainframe4 img{
     position: absolute;
-left: 0%;
-right: 57.08%;
-top: 0%;
-bottom: 0%;
+    left: 0%;
+    right: 57.08%;
+    top: 0%;
+    bottom: 0%;
 }
 
 .mainframe4text{
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
 
-position: absolute;
-width: 460px;
-height: 411px;
-left: 728px;
-top: 140px;
+    position: absolute;
+    width: 460px;
+    height: fit-content;
+    left: 728px;
+    top: 120px;
 }
 
 .mainframe4text h2{
@@ -514,19 +516,18 @@ top: 140px;
 
 .mainframe4text p{
     width: 460px;
-height: 290px;
+    height: 290px;
 
-font-family: 'Metropolis';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 29px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
 
-color: #676767;
+    color: #676767;
 
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .mainframe4readmore{
@@ -534,37 +535,328 @@ flex-grow: 0;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 7.25px;
 
     width: 137.75px;
     height: 29px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.mainframe4readmore p{
+    width: 101.5px;
+    height: 26.58px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.3333px;
+    line-height: 27px;
+
+    color: #ED017F;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rightarrow{
+    background: url("images/right arrow.png");
+
+    width: 29px;
+    height: 29px;
+
 
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.mainframe4readmore p{
-    width: 101.5px;
-height: 26.58px;
+/*main frame 5*/
 
-font-family: 'Metropolis';
+.mainframe5{
+    position: absolute;
+    width: 100%;
+    min-height: 842px;
+    max-height: fit-content;
+    left: 0px;
+    top: 2651px;
+
+    display: flex;
+
+    justify-content: center;
+
+    background: #FEF9FC;
+    text-align: center;
+    align-items: center;
+}
+
+.mainframe5 h2{
+    position: absolute;
+    left: 42.15%;
+    right: 42.15%;
+    top: 7.59%;
+    bottom: 82.3%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+
+    text-align: center;
+
+    color: #343434;
+}
+
+.mainframe5 p{
+    position: absolute;
+    left: 20.97%;
+    right: 20.97%;
+    top: 19.07%;
+    bottom: 77.32%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #999999;
+}
+
+.mainframe5services{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    position: absolute;
+    width: 1166px;
+    height: 457px;
+    top: 255px;
+}
+
+.product1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 457px;
+
+    border-radius: 9px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productimage1{
+    width: 254px;
+    height: 365px;
+
+    background: url("images/services1.png");
+    border-radius: 9px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.producttext1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 70px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.producttexthead{
+width: 185px;
+height: 70px;
+
 font-style: normal;
-font-weight: 400;
-font-size: 19.3333px;
-line-height: 27px;
+font-weight: 600;
+font-size: 21px;
+line-height: 35px;
 
-color: #ED017F;
+text-align: left;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #363940;
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.productarrow{
+    width: 37px;
+height: 37px;
+
+background: url("images/Arrow Circle Right.png");
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/*main frame 6*/
+
+.mainframe6{
+    position: absolute;
+    width: 100%;
+    height: 662px;
+    left: 0px;
+    top: 3493px;
+}
+
+.header{
+    position: absolute;
+    height: 43px;
+    left: 32.71%;
+    right: 32.64%;
+    top: calc(50% - 43px/2 - 203.5px);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+
+    text-align: center;
+
+    color: #343434;
+}
+
+.subheader{
+    position: absolute;
+    height: 44px;
+    left: 30.97%;
+    right: 30.97%;
+    top: calc(50% - 44px/2 - 140px);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #999999;
+}
+
+.mainframe6 .frame1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 55px;
+
+position: absolute;
+width: 1170px;
+height: 257px;
+left: 185px;
+top: 297px;
+}
+
+.subframe1{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 126px;
+
+width: 1170px;
+height: 101px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.subframe2{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 126px;
+
+width: 1170px;
+height: 101px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.resultsframe{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 172px;
+height: 76px;
 
 flex: none;
 order: 0;
 flex-grow: 0;
 }
 
-.mainframe4readmore img{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+.number{
+    width: 172px;
+height: 43px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 43px;
+
+color: #343434;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.text{
+    width: 172px;
+height: 25px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #676767;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 }
