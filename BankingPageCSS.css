@@ -5,7 +5,6 @@ body{
 
 .mainframe1{
     height: fit-content;
-
 }
 
 .img1{
@@ -763,100 +762,299 @@ flex-grow: 0;
 
 .mainframe6 .frame1{
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 55px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 55px;
 
-position: absolute;
-width: 1170px;
-height: 257px;
-left: 185px;
-top: 297px;
+    position: absolute;
+    width: 1170px;
+    height: 257px;
+    left: 185px;
+    top: 297px;
 }
 
 .subframe1{
     display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 126px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 126px;
 
-width: 1170px;
-height: 101px;
+    width: 1170px;
+    height: 101px;
 
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .subframe2{
     display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 126px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 126px;
 
-width: 1170px;
-height: 101px;
+    width: 1170px;
+    height: 101px;
 
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .resultsframe{
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
 
-width: 172px;
-height: 76px;
+    width: 172px;
+    height: 76px;
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .number{
     width: 172px;
-height: 43px;
+    height: 43px;
 
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 43px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
 
-color: #343434;
+    color: #343434;
 
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .text{
     width: 172px;
-height: 25px;
+    height: 25px;
 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #676767;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/*main frame 7*/
+
+.mainframe7{
+    position: absolute;
+    width: 100%;
+    height: 403px;
+    left: 0px;
+    top: 4155px;
+
+    background: #FEF9FC;
+}
+
+.mainframe7 .header{
+    position: absolute;
+    height: 43px;
+    left: 43.33%;
+    right: 43.26%;
+    top: calc(50% - 43px/2 - 80px);
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+
+    text-align: center;
+
+    color: #343434;
+}
+
+.mainframe7 .subheader{
+    position: absolute;
+    height: 44px;
+    left: 35.76%;
+    right: 35.76%;
+    top: calc(50% - 44px/2 - 16.5px);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #999999;
+}
+
+.mainframe7 .frame1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11px;
+
+    position: absolute;
+    width: auto;
+    height: 46px;
+    left: 517px;
+    top: 241px;
+}
+
+.mainframe7 .whitebox{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 15px;
+    gap: 10px;
+
+    width: 343px;
+    height: 46px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+::placeholder{
+    opacity: 0.6;
+}
+
+.mainframe7 .pinkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 24px;
+    gap: 10px;
+
+    width: 132px;
+    height: 46px;
+
+    border: none;
+    background: #ED017F;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* main frame 8*/
+
+.mainframe8{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 70px;
+
+position: absolute;
+width: 891px;
+height: 192px;
+left: 11%;
+top: 4618px;
+margin-bottom: 12%;
+bottom: 500px;
+padding-bottom: 7%;
+
+}
+
+.mainframe8 .aboutus{
+    min-width: 180px;
+height: 192px;
+
+}
+
+.mainframe8 .abtheader{
+    position: absolute;
+height: 22px;
 font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #010101;
+}
+
+.mainframe8 .abtsubheader{
+    margin-top: 35px;
+    font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 25px;
-
-letter-spacing: 1px;
-text-transform: uppercase;
-
+font-size: 14px;
+line-height: 22px;
 color: #676767;
 
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+}
+
+.frame23{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+background: url("images/Frame 23.png");
+
+position: absolute;
+width: 138px;
+height: 24px;
+left: -6px;
+top: 168px;
+
+}
+
+.frame22{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 11px;
+
+background: url("images/Frame 22.png");
+
+position: absolute;
+width: 85px;
+height: 24px;
+left: 1220px;
+top: 4622px;
+
+border-radius: 15px;
 }
